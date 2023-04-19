@@ -1,0 +1,58 @@
+
+@import url('https://fonts.cdnfonts.com/css/alarm-clock');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #d8edff;
+  font-family: 'alarm clock', sans-serif;
+  font-weight: 500;
+}
+
+.container{
+  background-color:#f3f3f3;
+	color:#272e38;
+  width: 450px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.reloj-container{
+  background-color: #DDDDDD;
+  height: 150px;
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+}
+.dark-container{
+  background-color: #272E38;
+}
+.dark-reloj{
+  background-color: #0F1620;
+  color: #f3f3f3;
+}
+a{
+  background-color: brown;
+  color: white;
+  padding: 10px 30px;
+}
+
+a:hover{
+  cursor: pointer;
+}
+#clock.dark{
+	background-color:#272e38;
+	color:#cacaca;
+}
