@@ -1,35 +1,129 @@
 Consignas
 
-1- Calcular el total de sueldos del siguiente array de personas:
+Crear un pequeño proyecto HTML+JS en el cual ingresemos por prompt una cadena de texto y como resultado a lo que será una “busqueda” la pagina HTML nos muestre una tabla o lista de los países del siguiente array que incluyan esa cadena en el nombre.
 
-const personas = [
-{ nombre: 'Juan', edad: 25, ciudad: 'Buenos Aires', sueldo: 50000 },
-{ nombre: 'María', edad: 30, ciudad: 'Rosario', sueldo: 65000 },
-{ nombre: 'Pedro', edad: 40, ciudad: 'Córdoba', sueldo: 80000 },
-{ nombre: 'Lucía', edad: 35, ciudad: 'Mendoza', sueldo: 75000 }
-];
+Opcional: como extra pueden programar que en caso de ingresar una sola letra, en lugar de mostrar los países que la incluyan en el nombre, solo mostrarán los países que empiecen con esa letra en el nombre.
 
-2- A partir del mismo array de personas crear un nuevo array solo con los mayores de 30.
+Array para trabajar
 
-3- Calcular la ganancia de vender 3 productos de cada uno del siguiente array de productos pero solo de los que tienen la propiedad de sold en true, teniendo en cuenta que la ganancia por venta es del 30%.
+const paisesLatinoamericanos = [
+{
+nombre: 'Argentina',
+ubicacion: 'Sudamérica',
+habitantes: 44938712,
+capital: 'Buenos Aires'
+},
+{
+nombre: 'Brasil',
+ubicacion: 'Sudamérica',
+habitantes: 213918000,
+capital: 'Brasilia'
+},
+{
+nombre: 'Chile',
+ubicacion: 'Sudamérica',
+habitantes: 19296289,
+capital: 'Santiago'
+},
+{
+nombre: 'Colombia',
+ubicacion: 'Sudamérica',
+habitantes: 50372424,
+capital: 'Bogotá'
+},
+{
+nombre: 'Costa Rica',
+ubicacion: 'Centroamérica',
+habitantes: 5127582,
+capital: 'San José'
+},
+{
+nombre: 'Cuba',
+ubicacion: 'Caribe',
+habitantes: 11333483,
+capital: 'La Habana'
+},
+{
+nombre: 'Ecuador',
+ubicacion: 'Sudamérica',
+habitantes: 17643054,
+capital: 'Quito'
+},
+{
+nombre: 'El Salvador',
+ubicacion: 'Centroamérica',
+habitantes: 6486201,
+capital: 'San Salvador'
+},
+{
+nombre: 'Guatemala',
+ubicacion: 'Centroamérica',
+habitantes: 18249339,
+capital: 'Ciudad de Guatemala'
+},
+{
+nombre: 'Honduras',
+ubicacion: 'Centroamérica',
+habitantes: 9757654,
+capital: 'Tegucigalpa'
+},
+{
+nombre: 'México',
+ubicacion: 'Norteamérica',
+habitantes: 126190788,
+capital: 'Ciudad de México'
+},
+{
+nombre: 'Nicaragua',
+ubicacion: 'Centroamérica',
+habitantes: 6624554,
+capital: 'Managua'
+},
+{
+nombre: 'Panamá',
+ubicacion: 'Centroamérica',
+habitantes: 4314768,
+capital: 'Ciudad de Panamá'
+},
+{
+nombre: 'Paraguay',
+ubicacion: 'Sudamérica',
+habitantes: 7132530,
+capital: 'Asunción'
+},
+{
+nombre: 'Perú',
+ubicacion: 'Sudamérica',
+habitantes: 33172813,
+capital: 'Lima'
+},
+{
+nombre: 'Puerto Rico',
+ubicacion: 'Caribe',
+habitantes: 3193694,
+capital: 'San Juan'
+},
+{
+nombre: 'República Dominicana',
+ubicacion: 'Caribe',
+habitantes: 10847904,
+capital: 'Santo Domingo'
+},
+{
+nombre: 'Uruguay',
+ubicacion: 'Sudamérica',
+habitantes: 3477000,
+capital: 'Montevideo'
+},
+{
+nombre: 'Venezuela',
+ubicacion: 'Sudamérica',
+habitantes: 28435943,
+capital: 'Caracas'
 
-const productos = [
-{ nombre: 'Camisa', precio: 150, stock: 20, vendidos: 5, sold: true },
-{ nombre: 'Pantalón', precio: 250, stock: 15, vendidos: 8, sold: false },
-{ nombre: 'Zapatillas', precio: 500, stock: 10, vendidos: 3, sold: true },
-{ nombre: 'Bolso', precio: 300, stock: 25, vendidos: 12, sold: false },
-{ nombre: 'Cinturón', precio: 100, stock: 30, vendidos: 10, sold: true },
-{ nombre: 'Sombrero', precio: 200, stock: 5, vendidos: 1, sold: false },
-{ nombre: 'Bufanda', precio: 50, stock: 50, vendidos: 20, sold: true },
-{ nombre: 'Guantes', precio: 80, stock: 40, vendidos: 18, sold: false },
-{ nombre: 'Gorra', precio: 120, stock: 8, vendidos: 2, sold: true },
-{ nombre: 'Gafas de sol', precio: 180, stock: 12, vendidos: 6, sold: false },
-{ nombre: 'Pulsera', precio: 20, stock: 60, vendidos: 30, sold: true },
-{ nombre: 'Collar', precio: 40, stock: 45, vendidos: 25, sold: false },
-{ nombre: 'Anillo', precio: 60, stock: 35, vendidos: 15, sold: true },
-{ nombre: 'Pendientes', precio: 30, stock: 55, vendidos: 22, sold: false },
-{ nombre: 'Reloj', precio: 400, stock: 6, vendidos: 4, sold: true }
-];
+}
+
+]
 
 Presentación
-Crear una rama nueva en el repositorio con el nombre desafío10, pusherlo al repositorio remoto y crear una pull request, presentar el link a la pull request.
+Crear una rama nueva en el repositorio con el nombre desafío11, pusherlo al repositorio remoto y crear una pull request, presentar el link a la pull request. Pueden agregarme como colaborador si desean practicar como sería que alguien les supervise el pull y lo autorice a mergear o no dependiendo si esta correcto.
