@@ -15,7 +15,7 @@ console.log(producto.nombre)
 // Utiliza la sintaxis de punto para agregar dos nuevas propiedades llamadas stock y imagen y asignarles un valor.
 
 producto.stock = 457
-producto.imagen = "img/loky1.jpg"
+producto.imagen = "../pages/img/loky1.jpg"
 console.log(producto)
 
 // Utiliza la sintaxis de corchetes para agregar otra propiedad llamada codigo y asignarle un valor.

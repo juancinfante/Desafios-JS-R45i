@@ -6,8 +6,8 @@ let password = prompt("Ingrese contraseña")
 // Debe contener al menos un número. => /[0-9]/.test(password.toString())
 
 if(password.toString().length >= 8 &&  /[A-Z]/.test(password.toString()) && /[a-z]/.test(password.toString()) && /[0-9]/.test(password.toString())){
-  console.log("Contraseña Valida")
+  alert("Contraseña Valida")
 }else{
-  console.log("Contraseña Invalida")
+  alert("Contraseña Invalida")
 }
 
