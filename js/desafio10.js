@@ -48,6 +48,7 @@ const productos = [
   { nombre: 'Pendientes', precio: 30, stock: 55, vendidos: 22, sold: false },
   { nombre: 'Reloj', precio: 400, stock: 6, vendidos: 4, sold: true }
   ];
+  
 let ganancia = 0, totalPorVenta = 0;
 for(i=0;i<productos.length;i++){
   if(productos[i].sold){
@@ -55,3 +56,5 @@ for(i=0;i<productos.length;i++){
     console.log("La ganancia de vender 3 "+ productos[i].nombre + " es "+ ganancia)
   }
 }
+
+console.log(productos)
